@@ -8,7 +8,7 @@ const checkStatus = async (swapId: string) => {
 
 //checkStatus("0x50460aceb8529ff740fc65305bede6add2e895747d5e081784541ef5f4209036");
 checkStatus(
-  "0xd60d55a60b6ccfdbccfe4c6e518592a84fc9c761602125aec5af41fe42f44bf8"
+  "0x0100000f4240980000000000bcf7a43000000000000065dcb2a592960103c601"
 );
 
 // RETURNS HASHES ON INITIAL AND DESTINTION CHAIN

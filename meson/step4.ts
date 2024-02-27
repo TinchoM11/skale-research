@@ -2,9 +2,6 @@ import dotenv from "dotenv";
 import fetch from "node-fetch";
 dotenv.config();
 
-// The private key for fromAddress
-const PK = process.env.PK as string;
-
 // FOR EOA Wallets
 // We use here the signature and encodedSwap from the previous steps
 async function sendBridgeTx(signature: string, encodedSwap: string) {

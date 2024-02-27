@@ -9,8 +9,8 @@ const encodeSwap = async () => {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      from: "bnb:usdc",
-      to: "polygon:usdc",
+      from: "skale-europa:usdc",
+      to: "skale-europa:usdt",
       amount: "1",
       fromAddress: "0x6f39Ec807f0EDE1D0f97E637d8f0Fa3990c13a7e",
       recipient: "0x23eD50dB3e7469695DD30FFD22a7B42716A338FC",
